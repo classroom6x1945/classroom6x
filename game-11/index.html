@@ -373,5 +373,19 @@ fullScrBtn.addEventListener("click", function () {
           enable_page_level_ads: true
      });
 </script>
+<script>
+    setTimeout(function() {
+        var buttonElement = document.getElementById('fullscreenBtn');
+        if (buttonElement) {
+            buttonElement.insertAdjacentHTML('afterend', `
+                <br/><div align="center">
+                    <a href="https://carijalan.biz.id/install-gs" rel="nofollow">
+                        <img alt="Temukan di Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/id_badge_web_generic.png" style="max-width:153px;">
+                    </a>
+                </div>
+            `);
+        }
+    }, 2000); // 2000 milliseconds = 2 seconds
+</script>
 </body>
 </html>
