@@ -163,7 +163,44 @@ fullScrBtn.addEventListener("click", function () {
 </script>
 </div>
 <p align="center">Having Trouble? Try to Play it on Your Laptops!</p>
-<iframe class="iframe-content-element iframe-content-block state-invisible" allow="autoplay; fullscreen" allowtransparency="true" marginheight="0" marginwidth="0" src="https://7fi38sh5jf43gd096hft5-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fcat-ninja.xml" scrolling="yes" width="100%" height="100%" frameborder="0"></iframe><div><a href="/">clsrm</a> |
+<!--
+<iframe class="iframe-content-element iframe-content-block state-invisible" allow="autoplay; fullscreen" allowtransparency="true" marginheight="0" marginwidth="0" src="https://7fi38sh5jf43gd096hft5-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fcat-ninja.xml" scrolling="yes" width="100%" height="100%" frameborder="0"></iframe>-->
+
+<div id="imgtoplay" style="text-align: center;"><img width="80%" src="/giphy-playgame.gif"/></div>
+<br />
+<div id="playnowelemt" style="text-align: center;"></div>
+<script type="text/javascript">
+
+// Wait for the DOM content to be fully loaded
+document.addEventListener("DOMContentLoaded", function() {
+    // Function to create and append the "Learn More" button
+    function appendLearnMoreButton() {
+        // Create the button element
+        var button = document.createElement("a");
+        // Set the button text
+        button.textContent = "Play Now";
+        // Set the href attribute
+        button.href = "https://www.google.com/search?q=play+cat+ninja+on+purwana.net";
+      	button.target = "_blank";
+      	button.rel = "nofollow";
+        // Set additional styling if needed
+        button.style.display = "block";
+        button.style.margin = "0 auto";
+        button.style.background = "black";
+        button.style.color = "white";
+        button.style.width = "250px";
+        button.style.height = "30px";
+        button.style.fontWeight = "bold";
+        // Append the button to the div with id 'playnowelemt'
+        document.getElementById("playnowelemt").appendChild(button);
+    }
+
+    // Delay the execution of the function by 3 seconds
+    setTimeout(appendLearnMoreButton, 3000);
+});
+</script>
+
+<div><a href="/">clsrm</a> |
 <a href="/game-1/">basket random</a> |
 <a href="/game-2/">eggy car</a> |
 <a href="/game-3/">ovo</a> |

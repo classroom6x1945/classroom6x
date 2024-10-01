@@ -1,0 +1,33 @@
+<div id="imgtoplay" style="text-align: center;"><img width="80%" src="/giphy-playgame.gif"/></div>
+<br />
+<div id="playnowelemt" style="text-align: center;"></div>
+<script type="text/javascript">
+
+// Wait for the DOM content to be fully loaded
+document.addEventListener("DOMContentLoaded", function() {
+    // Function to create and append the "Learn More" button
+    function appendLearnMoreButton() {
+        // Create the button element
+        var button = document.createElement("a");
+        // Set the button text
+        button.textContent = "Play Now";
+        // Set the href attribute
+        button.href = "https://www.google.com/search?q=play+Cookie+Clicker+on+purwana.net&oq=play+Cookie+Clicker+on+purwana.net";
+      	button.target = "_blank";
+      	button.rel = "nofollow";
+        // Set additional styling if needed
+        button.style.display = "block";
+        button.style.margin = "0 auto";
+        button.style.background = "black";
+        button.style.color = "white";
+        button.style.width = "250px";
+        button.style.height = "30px";
+        button.style.fontWeight = "bold";
+        // Append the button to the div with id 'playnowelemt'
+        document.getElementById("playnowelemt").appendChild(button);
+    }
+
+    // Delay the execution of the function by 3 seconds
+    setTimeout(appendLearnMoreButton, 3000);
+});
+</script>
